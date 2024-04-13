@@ -4,17 +4,19 @@
 The Tax Calculator is a web application designed to help individuals estimate their income tax liability based on various financial parameters. Whether you're a salaried employee, self-employed professional, or a freelancer, this tool provides a quick and convenient way to calculate your taxes.
 
 ## Features
-User-friendly Interface: Clean and intuitive design for seamless user interaction.
-Input Validation: Built-in validation to ensure accurate data entry.
-Dynamic Tooltip: Informational tooltips provide guidance on each input field.
-Responsive Design: Optimized for desktop and mobile devices for accessibility.
-Real-time Results: Instantaneous calculation and display of tax amounts.
+
+1.User-friendly Interface: Clean and intuitive design for seamless user interaction.
+2.Input Validation: Built-in validation to ensure accurate data entry.
+3.Dynamic Tooltip: Informational tooltips provide guidance on each input field.
+4.Responsive Design: Optimized for desktop and mobile devices for accessibility.
+5.eal-time Results: Instantaneous calculation and display of tax amounts.
 
 ## Technologies Used
-HTML: Markup language for structuring the web page.
-CSS: Stylesheet language for styling the user interface.
-JavaScript: Programming language for interactive functionality.
-Bootstrap: Front-end framework for responsive design components.
+
+1.HTML: Markup language for structuring the web page.
+2.CSS: Stylesheet language for styling the user interface.
+3.JavaScript: Programming language for interactive functionality.
+4.Bootstrap: Front-end framework for responsive design components.
 
 ## How to Use
 
