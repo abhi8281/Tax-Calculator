@@ -1,0 +1,145 @@
+.error-tooltip {
+    display: none;
+}
+
+.form-control.invalid+.error-tooltip {
+    display: block;
+}
+
+.error-tooltip::before {
+    content: "!";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form-text {
+    margin-left: 10px;
+}
+
+.number-only-icon,
+.mandatory-icon {
+    color: #ff0000;
+}
+
+
+.number-only-icon,
+.mandatory-icon {
+    margin-left: 5px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group-text {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.bi-info-circle {
+    cursor: pointer;
+}
+
+.radial-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #9b59b6;
+    background: radial-gradient(at center, #3498db, #9b59b6);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button:hover {
+    background-color: #0062cc;
+}
+
+.submitted {
+
+    border: 2px solid #007bff;
+    transition: border 0.5s ease;
+}
+
+.result-styled {
+
+    font-weight: bold;
+    font-size: larger;
+    color: #481E14;
+}
